@@ -1,4 +1,4 @@
-const getAstrologicalZodiac = (date) => {
+const getAstrologicalSign = (date) => {
     const day = date.getUTCDate();
     const month = date.getUTCMonth() + 1;
 
@@ -19,4 +19,4 @@ const getAstrologicalZodiac = (date) => {
     return "Unknown";
 }
 
-module.exports = { getAstrologicalZodiac };
+module.exports = { getAstrologicalSign };

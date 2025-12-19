@@ -1,6 +1,6 @@
 const JD = (date) => {
     const y = date.getUTCFullYear();
-    const m = date.getUTCMonth() + 1; // місяці 1-12
+    const m = date.getUTCMonth() + 1;
     const d = date.getUTCDate() + date.getUTCHours() / 24 + date.getUTCMinutes() / 1440;
     let A = Math.floor(y / 100);
     let B = 2 - A + Math.floor(A / 4);

@@ -13,4 +13,4 @@ const validateDate = (req, res, next) => {
     next();
 }
 
-module.exports = {validateDate}
+module.exports = { validateDate }
